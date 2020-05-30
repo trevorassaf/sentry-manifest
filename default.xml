@@ -1,0 +1,28 @@
+<manifest>
+  <!-- Initialize with the following command -->
+  <!-- repo init -u "ssh://git@github.com/trevorassaf/sentry-manifest" -->
+
+  <!-- Push to repo within project with the follwing command  -->
+  <!-- git push github HEAD:master  -->
+  <remote name="github" fetch="ssh://git@github.com"/>
+  <default revision="refs/heads/master" remote="github" sync-j="4"/>
+
+  <!-- Build root -->
+  <project name="trevorassaf/sentry-build-root" remote="github" path="."/>
+
+  <!-- Source code -->
+  <project name="trevorassaf/gpio14" remote="github" path="code/gpio14/repo"/>
+  <project name="trevorassaf/mysql-cpp-prebuilts" remote="github" path="code/mysql-cpp-prebuilts/repo"/>
+
+  <!-- Toolchains -->
+  <project name="trevorassaf/rpi-x-tools" remote="github" path="build/toolchains/rpi-x-tools/repo"/>
+
+  <!-- Third party projects -->
+  <project name="trevorassaf/gflags-mirror" remote="github" path="external/gflags/repo" />
+  <project name="trevorassaf/glog-mirror" remote="github" path="external/glog/repo" />
+  <project name="trevorassaf/googletest-mirror" remote="github" path="external/googletest/repo" />
+  <project name="trevorassaf/boringssl-mirror" remote="github" path="external/boringssl/repo" />
+  <project name="trevorassaf/mysqlcpp-mirror" remote="github" path="external/mysql-cpp/repo" />
+  <project name="trevorassaf/jsoncpp-mirror" remote="github" path="external/jsoncpp/repo" />
+  <project name="trevorassaf/protobuf-mirror" remote="github" path="external/protobuf/repo" />
+</manifest>
