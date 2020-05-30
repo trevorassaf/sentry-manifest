@@ -13,6 +13,7 @@
   <!-- Source code -->
   <project name="trevorassaf/gpio14" remote="github" path="code/gpio14/repo"/>
   <project name="trevorassaf/mysql-cpp-prebuilts" remote="github" path="code/mysql-cpp-prebuilts/repo"/>
+  <project name="trevorassaf/rpi3b-x-tools" remote="github" path="build/rpi3b-x-tools/repo"/>
 
   <!-- Toolchains -->
   <project name="trevorassaf/rpi-x-tools" remote="github" path="build/toolchains/rpi-x-tools/repo"/>
