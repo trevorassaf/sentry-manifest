@@ -15,6 +15,7 @@
   <project name="trevorassaf/sentry-client" remote="github" path="code/sentry-client/repo"/>
   <project name="trevorassaf/mysql-cpp-prebuilts" remote="github" path="code/mysql-cpp-prebuilts/repo"/>
   <project name="trevorassaf/bluez-prebuilts" remote="github" path="code/bluez-prebuilts/repo"/>
+  <project name="trevorassaf/glib-prebuilts" remote="github" path="code/glib-prebuilts/repo"/>
 
   <!-- Toolchains -->
   <project name="trevorassaf/rpi3b-x-tools" remote="github" path="build/toolchain/rpi3b-x-tools/repo"/>
